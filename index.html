@@ -7,7 +7,8 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    
 
 <section id="p">
   <div class="header" >
@@ -16,6 +17,29 @@
         <p id="h2">NIAMT STUDENT RACING CLUB </p>
         <p id="h3">National Institute of Advanced Manufacturing Technology, Ranchi</p></h1>
   </div>
+  <div class="subtitle">
+    <a  href="#domains-section"> Domains</a>
+    <a href="#announcement"> Announcement</a>
+    
+    <a href="#achieve-section"> Achievements</a>
+    <a href="#our-reach"> Reach</a>
+    <a href="#sponsors-section"> Sponsorship?</a>
+  </div>
+  
+  <div class="dropdown">
+  <h2 id="button" >☰ </h2>
+  <div class="dropdown-content">
+    <a href="#domains-section">Domains</a>
+    <a href="#announcement">Announcement</a>
+    <a href="#legacy">Legacy</a>
+    <a href="#achieve-section">Achievements</a>
+    <a href="#our-reach">Reach</a>
+    <a href="#sponsors-section">Why Sponsor?</a>
+    <a href="#previous-sponsors">Previous Sponsors</a>
+    <a href="#previous-sponsors">Our Alumni</a>
+  </div>
+</div>
+
  </section>
 
 </head>
@@ -24,28 +48,18 @@
     <img id="img2" src="race3.jpg" alt="vehicle PIC">
   
     <img id="img3" src="pixelcut-export (2).jpg" alt="niamt pic">
-    <p id="about"> The NIAMT Racing Club is a student-driven initiative at the
-National Institute of Advanced Manufacturing Technology
-(NIAMT), Ranchi. We focus on designing and developing of racing
-cutting-edge vehicles. Founded by passionate engineering
-students, our club embodies the values of innovation, teamwork,
-and sustainability. <br>
-Founded in 2011, the club runs the college chapter of SAE
-collegiate club at NIAMT. The team 'THRUSTERS' also participated
-in the Formula SAE (FSAE Italy) 2013 events and competed with
-teams from all over the world. The teams have brought laurels to
-the institute by winning and showing exemplary performance in
-many Asian, European and Indian competitions
-More than just a team, the NIAMT Racing Club is a community of
-like-minded individuals driven by a passion for engineering and
-innovation. We are always looking for enthusiastic students who
-share our vision and are eager to contribute to the future of
-sustainable transportation.</p>
+    <p id="about">The NIAMT Racing Club is a student-driven initiative at the National Institute of Advanced Manufacturing Technology (NIAMT), Ranchi. We focus on designing and developing cutting-edge racing vehicles. Founded by passionate engineering students, our club embodies the values of innovation, teamwork, and sustainability. Founded in 2011, the club runs the official college chapter of the SAE Collegiate Club at NIAMT.</p>
+
+<p id="about1">
+      The 'Team THRUSTERS' have brought laurels to the institute by winning and showing exemplary performance in many Asian, European, and Indian competitions. Over the years, the team has grown into a tightly-knit unit of engineers who turn ideas into high-performance machines. With each season, we strive to push the boundaries of student motorsport and represent India on global platforms.
+      
+      
+</p>
   </div>
 <div>
   
 </div>
-<section class="domains-section">
+<section id="domains-section">
   <h2 class="section-title">Our Engineering Domains</h2>
   <div class="domain-cards">
 
@@ -83,17 +97,38 @@ sustainable transportation.</p>
 </section>
 <section>
   <div >
-    <h2 class="announcement"> Announcement and Ongoing projects</h2>
-    <marquee>WE ARE GEARING UP FOR SUPRA SAE 2025</marquee>
-    <p class="announce">NIAMT Racing Club is actively building its formula racing car for SUPRA SAE 2025!<br> From chassis welding to powertrain setup — the journey has begun. <br>Stay tuned for updates from the garage! 
+    
+    <h2 id="announcement">
+ Announcement and Ongoing projects</h2>
+    <marquee><i class="fas fa-bullhorn"></i>WE ARE GEARING UP FOR SUPRA SAE 2025</marquee>
+    <p class="announce">NIAMT Racing Club is actively building its formula racing car for SUPRA SAE 2025!.  From chassis welding to powertrain setup — the journey has begun. Stay tuned for updates from the garage! 
     </p>
 
   </div>
 </section>
 <section>
   <div>
-    <h2 class="legacy">Our Legacy</h2>
+    <video id="video"   src="track.0139.mp4" width="90%"  controls autoplay muted>
+      <source src="track.0139.mp4">
+      <source src="track.0139.WebM">
+    </video>
+  </div>
+</section>
+
+<section>
+  <div>
+    <h2 id="legacy">Our Legacy</h2>
     <div class="collab-section">
+
+      <!-- Right: 4-image collage -->
+  <div class="collab-images">
+    <img src="raceA.jpg" alt="Chassis">
+    <img src="raced.jpg" alt="Powertrain">
+    <img src="see.jpg" alt="Braking">
+    <img src="racec.jpg" alt="Design">
+  </div>
+</div>
+
   <!-- Left: Text -->
   <div class="collab-text">
     
@@ -108,19 +143,11 @@ We build the future, one race at a time.
     </p>
   </div>
 
-  <!-- Right: 4-image collage -->
-  <div class="collab-images">
-    <img src="raceA.jpg" alt="Chassis">
-    <img src="raced.jpg" alt="Powertrain">
-    <img src="see.jpg" alt="Braking">
-    <img src="racec.jpg" alt="Design">
-  </div>
-</div>
-
+  
   </div>
 </section>
-<section class="achieve-section">
-  <h2 class="section-topic">Our Achievement</h2>
+<section id="achieve-section">
+  <h2 class="section-topic">Our Achievements</h2>
   <div class="achieve-cards">
 
       
@@ -193,8 +220,8 @@ We build the future, one race at a time.
   </div>
 </section>
 
-<section class="our-reach">
-  <h2>Our Reach</h2>
+<section id="our-reach">
+  <h2 id="reach">Our Reach</h2>
   <div class="reach-points">
     <div class="reach-item">
       <i class="fas fa-flag-checkered"></i>
@@ -228,35 +255,35 @@ We build the future, one race at a time.
   </div>
 </section>
 
-<section class="why-sponsor">
-  <h2> Why Sponsor Us?</h2>
-  <div class="sponsor-points">
+<section class="our-reach">
+  <h2 id="reach"> Why Sponsor Us?</h2>
+  <div class="reach-points">
 
-    <div class="sponsor-item">
+    <div class="reach-item">
       <i class="fas fa-eye"></i>
       <p><strong>National Visibility</strong><br>
       Your brand gains recognition through national-level events and racing competitions like SUPRA SAE and Shell Eco Marathon.</p>
     </div>
 
-    <div class="sponsor-item">
+    <div class="reach-item">
       <i class="fas fa-lightbulb"></i>
       <p><strong>Innovation & Engineering</strong><br>
       Associate with cutting-edge student innovation in automotive design and technology.</p>
     </div>
 
-    <div class="sponsor-item">
+    <div class="reach-item">
       <i class="fas fa-share-alt"></i>
       <p><strong>Social Media Promotions</strong><br>
       We ensure your brand is highlighted across our digital platforms — posts, stories, and video content.</p>
     </div>
 
-    <div class="sponsor-item">
+    <div class="reach-item">
       <i class="fas fa-users-cog"></i>
       <p><strong>Support Young Talent</strong><br>
       Invest in the growth of future engineers, designers, and innovators from a premier institution.</p>
     </div>
 
-    <div class="sponsor-item">
+    <div class="reach-item">
       <i class="fas fa-hand-holding-heart"></i>
       <p><strong>CSR Opportunity</strong><br>
       Strengthen your Corporate Social Responsibility profile by supporting education, innovation, and youth development.</p>
@@ -264,23 +291,267 @@ We build the future, one race at a time.
 
   </div>
 </section>
-<section>
-  <div>
-    <h2 class="gallery">Gallery Section</h2>
+<section class="our-reach">
+  <h2>Impact and Outreach</h2>
+  <div class="reach-container">
+    <div class="reach-box">
+      <h3>20+</h3>
+      <p>Indian Universities</p>
+    </div>
+    <div class="reach-box">
+      <h3>5,000+</h3>
+      <p>Instagram Followers</p>
+    </div>
+    <div class="reach-box">
+      <h3>20+</h3>
+      <p>States Covered</p>
+    </div>
+    <div class="reach-box">
+      <h3>Annual Fest</h3>
+      <p>Jinks Pranav Collaboration</p>
+    </div>
   </div>
 </section>
-<section class="contact-us">
+
+<section id="sponsors-section">
+  <h2 class="sponsors-title">Our Previous Sponsors</h2>
+  <div class="sponsors-marquee">
+    <div class="img5">
+      <img src="club sponsors (1).png" alt="Sponsor 1">
+      <img src="club sponsors (2).png" alt="Sponsor 2">
+      <img src="club sponsors (3).png" alt="Sponsor 3">
+      <img src="club sponsors (4).png" alt="Sponsor 4">
+      <img src="club sponsors (6).png" alt="Sponsor 5">
+      
+
+      <!-- Repeat for continuous loop -->
+      <img src="club sponsors (1).png" alt="Sponsor 1">
+      <img src="club sponsors (2).png" alt="Sponsor 2">
+      <img src="club sponsors (3).png" alt="Sponsor 3">
+      <img src="club sponsors (4).png" alt="Sponsor 4">
+      <img src="club sponsors (6).png" alt="Sponsor 5">
+    </div>
+  </div>
+</section>
+
+
+<section id="review" class="review-section">
+  <div class="review-card">
+    <i class="fas fa-quote-left review-quote-icon"></i>
+    <img src="WhatsApp Image 2024-12-22 at 04.49.56.jpeg" alt="Reviewer photo" class="review-photo">
+    
+    <p class="review-text">
+      “Being part of Team Thrusters has been amazing—I've learned so much in design, engineering, and real-world racing!”
+    </p>
+    <p class="review-author">— Pawan Kumar</p>
+  </div>
+</section>
+
+
+<section>
+  <div>
+    <h2>
+
+    </h2>
+  </div>
+</section>
+<section id="contact-us">
   <h2>Connect With Us</h2>
   <div class="social-icons">
-    <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
-    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.linkedin.com/company/nifft-racing-thrusters/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://www.facebook.com/share/18qxqPw6eR/?mibextid=qi2Omg" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/niamtsae?igsh=MTBiZjUzNWd6ZG9meA==" target="_blank"><i class="fab fa-instagram"></i></a>
     <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
   </div>
   <div>
     <p>© 2025 NIAMT Racing Club</p>
   </div>
 </section>
+
+
+      
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    anime({
+      targets: '#img1',
+      translateX: [-200, 0],
+      opacity: [0, 1],
+      duration: 1500,
+      easing: 'easeOutQuad',
+      complete: () => {
+       
+      }
+    });
+
+    anime({
+      targets: '#h1, #h2, #h3',
+      translateY: [50, 0],
+      opacity: [0, 1],
+      duration: 1400,
+      easing: 'easeOutExpo',
+      delay: anime.stagger(200)
+    });
+  });
+  document.addEventListener('DOMContentLoaded', () => {
+  const els = document.querySelectorAll('.domain-card, .achieve-card, .reach-box');
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('reveal');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  els.forEach(el => {
+    observer.observe(el);
+  });
+});
+document.querySelectorAll('.domain-card').forEach(card => {
+  card.addEventListener('mouseenter', () => {
+    anime({
+      targets: card,
+      scale: 1.05,
+      boxShadow: ['0 4px 10px rgba(0,0,0,0.1)', '0 8px 20px rgba(0,0,0,0.3)'],
+      duration: 100,
+      easing: 'easeOutQuad'
+    });
+  });
+  card.addEventListener('mouseleave', () => {
+    anime({
+      targets: card,
+      scale: 1,
+      boxShadow: ['0 8px 20px rgba(0,0,0,0.3)', '0 4px 10px rgba(0,0,0,0.1)'],
+      duration: 100,
+      easing: 'easeOutQuad'
+    });
+  });
+});
+
+
+
+  gsap.registerPlugin(ScrollTrigger);
+  const mm = gsap.matchMedia();
+
+  mm.add("(min-width: 600px)", () => {
+    let tl = gsap.timeline({ repeat: -1 });
+    tl.to(".awesome-marquee span", {
+      xPercent: -50,
+      ease: "none",
+      duration: 10,
+      modifiers: {
+        xPercent: gsap.utils.wrap(-50, 0)
+      }
+    });
+  });
+window.addEventListener('DOMContentLoaded', () => {
+  const items = document.querySelectorAll('.domain-card, .achieve-card, .reach-box');
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  items.forEach(el => {
+    el.classList.add('fade-slide');
+    observer.observe(el);
+  });
+});
+
+window.addEventListener('DOMContentLoaded', () => {
+  const targets = document.querySelectorAll('.domain-card, .achieve-card, .reach-box');
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  targets.forEach(el => {
+    el.classList.add('fade-slide');
+    observer.observe(el);
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.domain-card');
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.3 });
+
+  cards.forEach(card => {
+    observer.observe(card);
+  });
+});
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const reachBoxes = document.querySelectorAll('.reach-box');
+  const sponsorPoints = document.querySelectorAll('.our-reach .reach-item');
+
+  const observer = new IntersectionObserver((entries, obs) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        obs.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.2 });
+
+  reachBoxes.forEach(el => observer.observe(el));
+  sponsorPoints.forEach(el => observer.observe(el));
+});
+
+
+
+document.addEventListener('DOMContentLoaded', () => {
+  const menuBtn = document.getElementById('.dropdown');
+  const dropdown = document.querySelector('.dropdown-content');
+
+  menuBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+  });
+
+  document.addEventListener('click', () => {
+    dropdown.style.display = 'none';
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const btn = document.getElementById('menu-btn');
+  const content = document.querySelector('.dropdown-content');
+
+  btn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    content.style.display = (content.style.display === 'block') ? 'none' : 'block';
+  });
+
+  document.addEventListener('click', () => content.style.display = 'none');
+});
+
+
+
+
+
+</script>
+
+
+
+
 
 </body>
 </html>
